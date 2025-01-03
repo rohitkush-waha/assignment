@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.center1{
+    text-align: center;
+    margin: 100px 0;
+}
+.heading{
+    line-height: 70px;
+}
+.heading h1{
+    font-size: 60px;
+}
+.heading p{
+    font-size: 20px;
+}
+
+/* Style for the Owl Carousel */
+.owl-carousel .card {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #282828;
+  }
+ .card img{
+    width: 30px !important;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #282828;
+
+ }
+ .card h3{
+    background-color: #282828;
+    color: #a9a9a9;
+    font-family: 12px;
+    line-height: 25px;
+ }
+ .card p{
+    background-color: #282828;
+    color: #a9a9a9;
+    font-family: 12px;
+    line-height: 25px;
+ }
+
+
+
